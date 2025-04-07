@@ -39,7 +39,7 @@ Mở trình duyệt và truy cập http://localhost:8000 để sử dụng.
 
         ⇒ **Grok-2-1212** là lựa chọn tốt nhất xử lý văn bản và muốn dung lượng ngữ cảnh lớn, với hiệu suất tốt hơn **Grok-beta**
 
-        ![img](https://i.ibb.co/HLR0SjC4/OKCTDMUQUHPTRIA.jpg)
+![img](https://i.ibb.co/HLR0SjC4/OKCTDMUQUHPTRIA.jpg)
 
 - **Model tạo hình ảnh (Image Generation Models):** Ở đây tôi sử dụng model **Grok-2-image-1212** để tạo hình ảnh. Dựa trên thông tin từ web, Grok 2 nói chung (bao gồm các phiên bản như **Grok-2-image-1212**) có thể xử lý các prompt phức tạp hơn nếu được cung cấp chi tiết cụ thể và rõ ràng. **Grok-2-image-1212** là mô hình chuyên biệt để tạo hình ảnh, sử dụng FLUX.1, với khả năng tạo hình ảnh chi tiết và chân thực, nhưng có hệ thống kiểm duyệt nội dung rất nhạy. ✏️
 
