@@ -108,7 +108,7 @@ async def on_chat_start():
  )
 ]
 # 1. Tạo nội dung tin nhắn với cú pháp Markdown
- note_content = ("Xin chào! Tôi là Grok, bot của xAI. Bạn cần giúp gì hôm nay?\n"
+ note_content = ("Xin chào! Tôi là Grok, Chatbot xAI. Bạn cần giúp gì hôm nay?\n"
 """
 ---
  *NOTE:*
