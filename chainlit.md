@@ -6,17 +6,19 @@ Xin chào mọi người 👋 Hôm nay mình share và hướng dẫn sử dụn
 
 - **API key:** trước tiên phải chuẩn bị api key Grok thì bạn phải vào [console.x.ai](https://console.x.ai/) để lấy API key 🔑	
 
-- **Model xử lí văn bản (Language Models)":** Tôi sử dụng model **Grok-2-1212** cho xử lí các tác vụ liên quan đến văn bản, text. Đây là một mô hình ngôn ngữ (text-only) không có khả năng xử lý hình ảnh, tập trung vào việc tạo văn bản và trả lời các câu hỏi dựa trên văn bản, mô hình này được cải thiện về độ chính xác, khả năng tuân thủ hướng dẫn, và hỗ trợ đa ngôn ngữ so với phiên bản Grok-beta. Nó là phiên bản nâng cấp của Grok-beta, ra mắt cùng ngày 11/12/2024. 💬
+- **Model xử lý văn bản (Language Models):** Tôi sử dụng model **Grok 3** cho xử lý các tác vụ liên quan đến văn bản, text. Đây là một mô hình ngôn ngữ lớn (LLM) thế hệ tiếp theo, được thiết kế để vượt trội trong nhiều lĩnh vực, từ xử lý văn bản chuyên sâu đến các tác vụ đa phương thức (multimodal) trong tương lai. Grok 3 được cải tiến đáng kể về khả năng suy luận, hiểu ngữ cảnh và hiệu suất so với các phiên bản tiền nhiệm như Grok-2.
 
-    - Cung cấp câu trả lời chi tiết, rõ ràng cho các chủ đề phức tạp.
-    - Có phong cách trò chuyện sáng tạo, phù hợp cho các dự án sáng tạo hoặc brainstorming.
-    - Hỗ trợ đa ngôn ngữ tốt, phù hợp cho các ứng dụng toàn cầu.
+    - Cung cấp khả năng suy luận logic và giải quyết vấn đề ở cấp độ cao, vượt trội hơn các phiên bản trước.
+    - Xử lý các tài liệu dài và phức tạp một cách hiệu quả nhờ vào cửa sổ ngữ cảnh lớn.
+    - Thể hiện sự hiểu biết sâu sắc về các lĩnh vực chuyên môn như toán học, lập trình và khoa học.
 
-    	+ **Dung lượng ngữ cảnh:** 128K token, lớn hơn nhiều so với **Grok-2-vision-1212 (hỗ trợ cả text và hình ảnh)**, phù hợp cho các cuộc hội thoại dài hoặc phân tích văn bản lớn.
+        + **Dung lượng ngữ cảnh:** 128K token, tương đương với Grok-2, cho phép xử lý và phân tích các đoạn hội thoại dài hoặc khối lượng văn bản lớn một cách liền mạch.
 
-        + **Giá cả:** có giá $2/1M token đầu vào và $10/1M token đầu ra, **Grok-2-vision-1212** cũng tương tự.
+        + **Hiệu suất và điểm chuẩn:** Grok 3 đã cho thấy hiệu suất vượt trội so với các mô hình cùng phân khúc như GPT-4 và Claude 3 Opus trên nhiều bài kiểm tra tiêu chuẩn, bao gồm các bài toán, lập trình và kiến thức tổng quát.
 
-        ⇒ **Grok-2-1212** là lựa chọn tốt nhất xử lý văn bản và muốn dung lượng ngữ cảnh lớn, với hiệu suất tốt hơn **Grok-beta**
+        + **Tầm nhìn tương lai:** Mặc dù phiên bản hiện tại tập trung vào văn bản, Grok 3 được xây dựng với kiến trúc hướng tới khả năng đa phương thức, hứa hẹn sẽ sớm hỗ trợ xử lý hình ảnh, âm thanh và video.
+
+        ⇒ **Grok 3** là lựa chọn hàng đầu cho các tác vụ đòi hỏi khả năng suy luận phức tạp, độ chính xác cao và khả năng xử lý ngữ cảnh dài, thiết lập một tiêu chuẩn mới về hiệu suất trong lĩnh vực trí tuệ nhân tạo.
 
 - **Model tạo hình ảnh (Image Generation Models):** Ở đây tôi sử dụng model **Grok-2-image-1212** để tạo hình ảnh. Dựa trên thông tin từ web, Grok 2 nói chung (bao gồm các phiên bản như **Grok-2-image-1212**) có thể xử lý các prompt phức tạp hơn nếu được cung cấp chi tiết cụ thể và rõ ràng. **Grok-2-image-1212** là mô hình chuyên biệt để tạo hình ảnh, sử dụng FLUX.1, với khả năng tạo hình ảnh chi tiết và chân thực, nhưng có hệ thống kiểm duyệt nội dung rất nhạy. ✏️
 

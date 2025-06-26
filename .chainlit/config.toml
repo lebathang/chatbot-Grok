@@ -20,6 +20,9 @@ cache = false
 allow_origins = ["*"]
 
 [features]
+# Bật tính năng xác thực
+enable_authentication = true
+
 # Process and display HTML in messages. This can be a security risk (see https://stackoverflow.com/questions/19603097/why-is-it-dangerous-to-render-user-generated-html-or-javascript)
 unsafe_allow_html = false
 
@@ -64,6 +67,22 @@ edit_message = true
     # Only need the base name of the executable, e.g. "npx", not "/usr/bin/npx".
     # Please don't comment this line for now, we need it to parse the executable name.
     allowed_executables = [ "npx", "uvx" ]
+
+# --- KHỐI MỚI ĐƯỢC THÊM VÀO BÊN DƯỚI ---
+[auth] # <-- KHỐI THÊM VÀO
+# Định nghĩa loại xác thực là "basic"
+type = "basic"
+
+# Danh sách người dùng và mật khẩu
+# Bạn có thể thêm bao nhiêu người dùng tùy thích
+[[auth.credentials]]
+username = "user1"
+password = "password123"
+
+[[auth.credentials]]
+username = "admin"
+password = "superadmin"
+# --- KẾT THÚC KHỐI THÊM VÀO ---
 
 [UI]
 # Name of the assistant.
